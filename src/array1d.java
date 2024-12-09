@@ -29,5 +29,7 @@ public class array1d {
         return sum;
     }
 
-
+    public double averageArray() {
+        return (double) sumArray()/numbers.length;
+    }
 }
