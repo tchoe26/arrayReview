@@ -12,6 +12,8 @@ public class array1d {
         }
         printArray();
         System.out.println("sum:" + sumArray());
+        System.out.println("average:" + averageArray());
+        System.out.println();
 
     }
 
@@ -32,4 +34,6 @@ public class array1d {
     public double averageArray() {
         return (double) sumArray()/numbers.length;
     }
+
+
 }
